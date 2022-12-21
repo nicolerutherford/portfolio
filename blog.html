@@ -1,0 +1,145 @@
+
+<style>
+body {
+    padding:10px;
+    color:black;
+    background-color:#BEC9DF ;
+}
+
+
+.flex-items {
+    background-color:#F8FAFC;
+    border-radius: 3%;
+    border-color: #33475b;
+    border-style: double;
+
+
+
+
+}
+.flex-items a {
+    text-decoration: none;
+    color:#33475B}
+
+
+main > div {padding:30px;
+}
+
+
+h1, h2, p {font-family: 'Lato', sans-serif; }
+h2 {color: #FF7A59}
+p {color:#33475b}
+h1 {text-transform: uppercase;}
+
+
+article {
+    margin: 20px;
+    padding: 40px;
+    width: 375px;
+
+
+}
+
+.flex-container {
+        display: flex ;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+main {
+    justify-content: center;
+    flex-wrap:wrap;
+    padding:20px;
+    }
+
+
+img {max-width: 100%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: stretch center;
+
+  }
+
+  .img {width: 100%;
+    }
+
+  .flex-items {
+    justify-content: center;
+    width: fit-content ;
+    resize: vertical;
+    column-count: 2;
+    column-width:200px;
+
+  }
+
+ h2 p {
+        width: auto;
+      align-items: center;}
+
+  body { padding: 0px;} }
+
+</style>
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+
+
+<body>
+    <head>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+            <ul>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+            </ul>
+        </nav>
+
+    </head>
+
+    <main>
+    <div class="flex-container">
+
+        <article class="flex-items">
+            <img src="photos/one.jpg" style="width:100%;"></img>
+            <a href="article1.html"><h2>Lockdown 2.0: <br> Shanghai Is Screaming</h2>
+            <p><strong>Lockdown series blog. </strong><br> As Shanghai undergoes the largest city lockdown for over 2 months.<br>
+                <span> <br><strong>April 05, 2022</strong></span>
+            </p></a>
+        </article>
+
+        <article class="flex-items">
+            <img src="photos/two.jpg"style="width:100%;" style="width:400px;height:300px;"></img>
+            <a href="article3.html"><h2>Lockdown 2.0: <br>The Great Wall(s)</h2>
+            <p><strong>Lockdown series blog. </strong><br> As Shanghai undergoes the largest city lockdown for over 2 months..<br>
+                <span> <br><strong>May 02, 2022</strong></span>
+            </p></a>
+        </article>
+
+        <article class="flex-items">
+            <img src="photos/three.jpg" style="width:100%;"></img>
+            <a href="article2.html"><h2>Life Lessons: <br> Living Abroad</h2>
+            <p>Soon to move back to England. I reflect on the life lessons from a life abroad.<br>
+              <span> <br><strong>May 28, 2022</strong></span>
+            </p></a>
+        </article>
+
+    </div>
+    </main>
+
+</body>

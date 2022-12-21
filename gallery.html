@@ -1,0 +1,172 @@
+<style>
+h2 {text-transform: uppercase;}
+
+body {
+padding:20px;
+background-color:#BEC9DF ;
+font-family: Roboto;
+margin: 2em;
+}
+
+main > div {padding:20px;}
+
+h1, p {font-family: 'Lato', sans-serif;}
+
+h1 {text-transform: uppercase;
+color: #FF7A59;}
+
+p {padding: 5px;
+color:#33475b;}
+
+h1{padding-top: 10px;}
+
+img {
+width:100%; }
+
+main {display:flex;
+justify-content: center;
+padding:20px;
+flex-direction: column;
+}
+
+.polaroid a {
+background: #FFFFFF;
+display: inline;
+float: left;
+margin: 55px 75px 30px;
+padding: 15px 15px 30px;
+text-align: center;
+text-decoration: none;
+-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+transition: all 0.2s linear;
+z-index: 0;
+position: relative;
+}
+
+.polaroid a:after {
+color: #000000;
+font-size: 25px;
+content: attr(title);
+position: relative;
+top: 15px;
+}
+
+.polaroid img {
+display: block;
+width: 250px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.polaroid a:hover {
+-webkit-transform: scale(1.2);
+-moz-transform: scale(1.2);
+transform: scale(1.2);
+z-index: 10;
+-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+figcaption {
+padding-top: 10px;
+margin:2%;
+color: #FF7A59;
+font-size:large;
+}
+
+h1 {text-transform: uppercase;
+color: #FF7A59;
+padding-top: 20px;
+text-align: center;
+}
+</style>
+
+<head>
+    <script src="/script.js" defer></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+
+    <head>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+            <ul>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+            </ul>
+        </nav>
+
+    </head>
+
+
+<h1>My favourite spots visited in China</h1>
+
+
+<div class="polaroid">
+  <a id="polaroid" href="#" title="  ">
+  <img id="img" src="photos/Gaungzhou.jpeg"/>
+  <figcaption> <strong>The Southern City Gaungzhou</strong> <br> for their Parks and sun all year round  </figcaption>
+
+  </a>
+  <a id="polaroid" href="#" title="  ">
+    <img id="img" src="photos/Guilin.jpeg"/>
+    <figcaption> <strong>Yangshuo in Guilin's</strong> hike to the cove </figcaption>
+    </a>
+    <a id="polaroid" href="#" title="  ">
+        <img id="img" src="photos/wallss.jpeg"/>
+        <figcaption> Camping on the <strong>Great Wall of China</strong></figcaption>
+
+    </a>
+  <a id="polaroid" href="#" title="  ">
+    <img id="img" src="photos/moonsun.jpeg"/>
+    <figcaption> The Moon【月亮】 and the Sun【太阳】 in<strong> Guilin </strong> </figcaption>
+    </a>
+    <a id="polaroid" href="#" title="  ">
+        <img id="img" src="photos/shenzhen.jpeg"/>
+        <figcaption> Sky views in <strong> Shenzhen </strong> </figcaption>
+        </a>
+    <a id="polaroid" href="#" title="  ">
+        <img id="img" src="photos/morganshan.jpeg"/>
+        <figcaption> The Avatar Mountains in in<strong> Morganshan </strong> </figcaption>
+        <caption></caption>
+    </a>
+    <a id="polaroid" href="#" title="  ">
+    <img id="img" src="photos/hotpot.jpeg"/>
+    <figcaption> Hotpot in<strong> Chengdu </strong> </figcaption>
+    </a>
+    <a id="polaroid" href="#" title="  ">
+        <img id="img" src="photos/Gaungzhou.jpeg"/>
+        <figcaption> The cruise boats in<strong> Gaungzhou </strong> </figcaption>
+    </a>
+    <a id="polaroid" href="#" title="  ">
+    <img id="img" src="photos/Chengdu.jpeg"/>
+    <figcaption> The Pandas in <strong> Chengdu </strong> </figcaption>
+
+    </a>
+    <a id="polaroid" href="#" title="  ">
+        <img id="img" src="photos/terra.JPG"/>
+        <figcaption> The Terracotta Warriors 【兵马俑】 in<strong> Xi'an  </strong> </figcaption>
+    </a>
+    <a id="polaroid" href="#" title="  ">
+        <img id="img" src="photos/teamLAB.jpeg"/>
+        <figcaption> The Art Display in <strong> Shanghai </strong> </figcaption>
+        </a>
+</div>
+
+<!-- include the Glitch button to show what the webpage is about and
+      to make it easier for folks to view source and remix -->
+<div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+<script src="https://button.glitch.me/button.js"></script>
+</body>

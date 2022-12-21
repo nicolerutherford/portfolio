@@ -1,0 +1,129 @@
+<style>
+  body {
+    padding: 20px;
+    color: black;
+    background-color: #BEC9DF;
+  }
+
+  main {
+    justify-content: center;
+    display: flex;
+  }
+
+  main>div {
+    padding: 40px;
+  }
+
+  .avatar {
+    border-radius: 50%;
+  }
+
+  h1,
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+
+  h1 {
+    text-transform: uppercase;
+  }
+  a:hover {
+    color: hotpink;
+  }
+  a { color: #FF7A59;
+    text-decoration: underline;}
+
+  p {
+    color: #33475b;
+    padding: 5px;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: #FF7A59;
+    padding-top: 20px;
+  }
+  @media only screen and (max-width: 900px) and (min-width: 650px) {
+    main {
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      flex-direction: column;
+    }
+
+    h1 {
+      margin-top: -50px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+
+    main {
+      justify-content: center;
+      padding: 20px;
+      flex-direction: column;
+
+    }
+
+
+    img { position: flex;
+      justify-content: center;
+      max-width: 500px;
+      width: 100%;
+
+    }
+
+    body { padding: 5px;}
+
+    h1 {
+      margin-top: -50px;
+    }
+  }
+</style>
+
+<head>
+  <title>Nicole</title>
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="navigation.css">
+</head>
+
+<body>
+
+  <head>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+      <ul>
+        <li ><a href="https://www.linkedin.com/in/nicole-rutherford/" class="fa fa-linkedin"></a></li>
+        <li ><a href="#" class="fa fa-instagram"></a></li>
+        <li ><a href="#" class="fa fa-facebook"></a></li>
+        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+    </nav>
+
+  </head>
+
+  <main>
+    <div class="avatar">
+      <img class="avatar" width="500" src="photos/nic.jpg">
+    </div>
+    <div class="intro">
+      <h1>
+        Meet Me
+      </h1>
+      <p> <strong>Loves:</strong> To learn, bike, dance, adventure, code, and listen to the Reciepts podcast.
+      </p>
+      <p><strong>Experience:</strong> I studied Mathematics at the University of Leeds, in which I developed my skills in Python and R. </p>
+      <p><strong>Current:</strong> Living in Newcastle after two and a half years in Shanghai. Recently completed Python 1 and 2 from Robociti Women in Python course. Self-learning programs HTML, CSS, Bootstrap, Node, JQuery, SQL and Javascript with a Full Stack Development course by Udemy. </p>
+      <p><strong>Future goals:</strong> Aspiring front-end web developer; ready to delve back into the coding world by learning new languages and their applications.
+        My aim is to produce a range of projects with these languages and keep my work within the <a href="projects.html">Projects</a> section of this site.</p>
+    </div>
+
+  </main>
+</body>

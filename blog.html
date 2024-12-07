@@ -8,22 +8,16 @@ body {
 
 
 .flex-items {
-    background-color:#F8FAFC;
     border-radius: 3%;
-    border-color: #33475b;
-    border-style: double;
-
-
 
 
 }
 .flex-items a {
     text-decoration: none;
-    color:#33475B}
-
-
-main > div {padding:30px;
+    color:#33475B
 }
+    
+
 
 
 h1, h2, p {font-family: 'Lato', sans-serif; }
@@ -33,55 +27,44 @@ h1 {text-transform: uppercase;}
 
 
 article {
-    margin: 20px;
-    padding: 40px;
-    width: 375px;
-
-
+    margin: 10px;
+    padding: 10px;
+    
 }
 
 .flex-container {
         display: flex ;
-        flex-direction: row;
         justify-content: space-between;
+        
 
     }
 
 main {
     justify-content: center;
     flex-wrap:wrap;
-    padding:20px;
+    padding:30px;
     }
 
 
-img {max-width: 100%;
+img {max-width: 90%;
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .flex-container {
     flex-direction: column;
-    width: 100%;
-    display: flex;
-    align-items: stretch center;
+    
 
   }
 
-  .img {width: 100%;
-    }
-
   .flex-items {
-    justify-content: center;
-    width: fit-content ;
-    resize: vertical;
     column-count: 2;
-    column-width:100px;
 
   }
 
  h2 p {
         width: auto;
-      align-items: center;}
+        align-items: right;}
 
   body { padding: 0px;} }
 
@@ -116,27 +99,39 @@ img {max-width: 100%;
     <div class="flex-container">
 
         <article class="flex-items">
-            <img src="photos/one.jpg" style="width:100%;"></img>
-            <a href="article1.html"><h2>Lockdown 2.0: <br> Shanghai Is Screaming</h2>
-            <p><strong>Lockdown series blog. </strong><br> As Shanghai undergoes the largest city lockdown for over 2 months.<br>
-                <span> <br><strong>April 05, 2022</strong></span>
-            </p></a>
+            <div class="flex-pic">
+                <img src="photos/one.jpg" style="width:100%;"></img>
+            </div>
+            <div class="flex-text">
+                <a href="article1.html"><h2>Lockdown 2.0: <br> Shanghai Is Screaming</h2>
+                <p><strong>Lockdown series blog. </strong><br> As Shanghai undergoes the largest city lockdown for over 2 months.<br>
+                    <span> <br><strong>April 05, 2022</strong></span>
+                </p></a>
+            </div>
         </article>
 
         <article class="flex-items">
-            <img src="photos/two.jpg"style="width:100%;" style="width:400px;height:300px;"></img>
-            <a href="article3.html"><h2>Lockdown 2.0: <br>The Great Wall(s)</h2>
-            <p><strong>Lockdown series blog. </strong><br> As Shanghai undergoes the largest city lockdown for over 2 months..<br>
-                <span> <br><strong>May 02, 2022</strong></span>
-            </p></a>
+            <div class="flex-pic">
+                <img src="photos/two.jpg"style="width:100%;" style="width:400px;height:300px;"></img>
+            </div>
+            <div class="flex-text">
+                <a href="article3.html"><h2>Lockdown 2.0: <br>The Great Wall(s)</h2>
+                <p><strong>Lockdown series blog. </strong><br> As Shanghai undergoes the largest city lockdown for over 2 months..<br>
+                    <span> <br><strong>May 02, 2022</strong></span>
+                </p></a>
+            </div>
         </article>
 
         <article class="flex-items">
-            <img src="photos/three.jpg" style="width:100%;"></img>
-            <a href="article2.html"><h2>Life Lessons: <br> Living Abroad</h2>
-            <p>Soon to move back to England. I reflect on the life lessons from a life abroad.<br>
-              <span> <br><strong>May 28, 2022</strong></span>
-            </p></a>
+            <div class="flex-text">
+                <img src="photos/three.jpg" style="width:100%;"></img>
+            </div>
+            <div class="flex-text">
+                <a href="article2.html"><h2>Life Lessons: <br> Living Abroad</h2>
+                <p>Soon to move back to England. I reflect on the life lessons from a life abroad.<br>
+                <span> <br><strong>May 28, 2022</strong></span>
+                </p></a>
+            </div>
         </article>
 
     </div>

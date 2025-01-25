@@ -1,62 +1,48 @@
 <style>
-  h1 {
-    color: #FF7A59;
-  }
-
-  p {
-    color: #33475b;
-  }
-
-  h2 {
-    text-transform: uppercase;
-  }
-
-  nav {
-    border-bottom: 2px solid #F8FAFC;
-  }
-
-  body {
-    background-color: #BEC9DF;
-  }
-
   body {
     padding: 20px;
     color: black;
+    background-color: #BEC9DF;
   }
 
-  main>div {
-    padding: 20px;
+  main {
+    justify-content: center;
+    display: flex;
   }
 
+  h1, h2, p {font-family: 'Lato', sans-serif; }
 
-  .navigation {
-    display: block flex;
-    justify-content: space-evenly;
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
+  h2 {color: #FF7A59}
 
+ 
+  a:hover {
+    color: hotpink;
   }
+  a { color: #FF7A59;
+    text-decoration: underline;}
 
-  h1,
   p {
-    font-family: 'Lato', sans-serif;
+    color: #33475b;
+  
   }
 
   h1 {
     text-transform: uppercase;
+    color: #FF7A59;
+    padding-top: 20px;
   }
 
-  p {
-    padding: 5px;
-  }
 
-  h1 {
-    padding-top: 10px;
-  }
 
-  img {
-    width: 100%;
-  }
+.flex-items {
+    border-radius: 3%;
+
+
+}
+.flex-items a {
+    text-decoration: none;
+    color:#33475B }
+
 
   main {
     display: flex;
@@ -66,6 +52,7 @@
     padding: 0px 200px 0px;
 
   }
+  img {width: 100%}
 
   @media screen and (max-width: 1100px) {
   main {
@@ -106,7 +93,7 @@
 
   <main>
     <h1>
-      Lockdown 2.0: Shanghai Is screaming
+      Lockdown 2.0:
     </h1>
     <div><img src="photos/vegetableshanghai.jpg"></div>
     <p>Maybe this sounds slightly dramatic but in fact it is very literal. The government called for a 5 day lockdown. On April 1st,
